@@ -19,10 +19,10 @@ class Tab extends Component {
       props: { activeTab, label },
     } = this;
 
-    let className = "tab-list-item";
+    let className = "tab-list-item";  
 
     if (activeTab === label) {
-      className += " tab-list-active";
+      className += " tab-list-active  ";
     }
 
     return (

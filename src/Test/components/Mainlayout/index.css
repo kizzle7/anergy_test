@@ -33,11 +33,10 @@ a:visited {
 
 .right-nav {
   position: fixed;
-  right: 0;
+  right: 0px;
   max-height: 100vh;
   overflow-y: scroll;
   top: 0;
-  display: flex;
   padding: 0;
   margin: 0;
   width: 25%;
@@ -601,6 +600,11 @@ a:visited {
 
 .side-nav-list-active {
   border-right: 3px solid #FFA101 !important;
+
+}
+
+.tab-nav-list-active {
+  border-bottom: 3px solid #FFA101 !important;
 
 }
 
