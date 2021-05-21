@@ -1,10 +1,12 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,800,700,900');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,100,200,300,500,600,800,700,900');
 .mainlayout {
   position: relative;
   margin: 0;
   padding: 0;
   background-color: #F7F8FA;
   color: #354052;
-  width: 75%;
+  width: 76%;
   opacity: 1;
   height: 810px;
 }
