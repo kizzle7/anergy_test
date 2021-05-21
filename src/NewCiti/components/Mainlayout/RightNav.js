@@ -51,7 +51,7 @@ export default function FixedLeftNav() {
               <div class="copy-cap">
                 <span class="copy-img ">
                   {' '}
-                  | <img src={copy} className="pl-2" />
+                <img src={copy} className="pl-2" />
                 </span>
                 <input
                   type="text"
@@ -72,7 +72,7 @@ export default function FixedLeftNav() {
                     opacity: '0.3',
                   }}
                 >
-                  <span className="text-dark">Edit Link</span>
+                  <span className="text-info">Edit Link</span>
                 </div>
               </div>
             </div>
