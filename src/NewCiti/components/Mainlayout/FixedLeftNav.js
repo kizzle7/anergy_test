@@ -3,7 +3,7 @@ import menus from '../../components/sidenavs'
 import appointment from '../../img/appointments.svg'
 import './index.css'
 export default function FixedLeftNav() {
-  const [current, setCurrent] = useState(false);
+  const [current, setCurrent] = useState(1);
   const active = (id) => {
     setCurrent(id)
   }
