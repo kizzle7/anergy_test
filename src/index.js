@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './NewCiti/App';
+import App from './Test/App';
 import * as serviceWorker from './serviceWorker';
 import 'react-app-polyfill/ie11'; // For IE 11 support
 import 'react-app-polyfill/stable';
-import { Provider } from 'react-redux'
 
 ReactDOM.render(
     <App />,
