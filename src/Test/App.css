@@ -3,10 +3,7 @@
 body {
   font-family: "Raleway", "Lato";
   background: #f7f8fa 0% 0% no-repeat padding-box;
-  scrollbar-width: none;
   width: 100%;
 }
 
-html {
-  width: 100%;
-}
+

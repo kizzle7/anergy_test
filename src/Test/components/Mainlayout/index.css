@@ -17,10 +17,10 @@ a:visited {
   padding: 0;
   margin: 0;
   font-size: 0.9rem;
-  width: 75%;
   background-color: #F7F8FA;
   color: #5a5a5a;
   opacity: 1;
+  width: 75%;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -103,7 +103,6 @@ a:visited {
   width: 56px;
   font-size: 0.9rem;
   z-index: 1;
- 
   height: 810px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   opacity: 1;
@@ -125,7 +124,6 @@ a:visited {
   width: 100%;
   background-color: #f9f9f9;
   color: #5a5a5a;
-
   border: 1px solid #eaeaea;
   position: fixed;
   left: 4rem;
@@ -158,8 +156,8 @@ a:visited {
 
 .btn-box-top {
   top: 20px;
-  left: 839px;
   width: 150px;
+  right: 23px;
   position: absolute;
   height: 44px;
   background: #322A7D 0% 0% no-repeat padding-box;
@@ -603,10 +601,7 @@ a:visited {
 
 }
 
-.tab-nav-list-active {
-  border-bottom: 3px solid #FFA101 !important;
 
-}
 
 .side-nav-name {
   color: #eaeaea;

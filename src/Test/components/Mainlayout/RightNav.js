@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './index.css'
 import alert from '../../img/bell.svg'
 import user from '../../img/user.svg'
@@ -6,6 +6,19 @@ import copy from '../../img/copy.svg'
 import crown from '../../img/crown.jpg'
 
 export default function FixedLeftNav() {
+  const [copyText, setCopyText] = useState('scheddo.com/jonathan');
+  const [copySuccess, setCopySuccess] = useState(false);
+
+  const clickboardCopyFunc = (e) => {
+    e.preventDefault();
+    const selectCopy = document.execCommand('scheddo.com/jonathan')
+    if(selectCopy){
+      setCopySuccess(true);
+    }
+
+
+  }
+
   return (
     <nav className="right-nav">
       <div className="right-contents">
@@ -46,17 +59,18 @@ export default function FixedLeftNav() {
         </div>
 
         <div className="copy-palet pt-5">
+          {copySuccess && <span className="text-info font-weight-bold">Text Copied Succcessfully</span>}
           <div className="d-flex">
             <div class="">
               <div class="copy-cap">
                 <span class="copy-img ">
                   {' '}
-                <img src={copy} className="pl-2" />
+                <img src={copy} className="pl-2" onClick={clickboardCopyFunc} />
                 </span>
                 <input
                   type="text"
                   className="input-copy"
-                  placeholder="scheddo.com/jonathan"
+                  placeholder={copyText}
                 ></input>
               </div>
             </div>

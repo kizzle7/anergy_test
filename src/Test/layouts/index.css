@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 .mainlayout {
-  position: relative;
+  position: absolute;
   margin: 0;
   padding: 0;
   background-color: #F7F8FA;
   color: #354052;
-  width: 75%;
   opacity: 1;
-  height: 810px;
+  width: 75%;
 }
 
 .main-body {
   margin-top: 70px;
-  position: relative;
   margin: 0;
+  display: flex;
+  height: 810px;
   padding: 0;
 
 }
@@ -24,10 +24,8 @@
 }
 
 .body-part {
-  top: 0px;
-  left: 0px;
-  right: 0px;
-  position: absolute;
+  position: relative;
+  height: 810px;
   width: 100%;
 
 
